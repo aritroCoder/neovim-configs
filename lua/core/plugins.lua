@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   use 'preservim/vimux'
   use 'christoomey/vim-tmux-navigator'
   use 'tpope/vim-fugitive'
+  use 'tpope/vim-commentary' -- commenting and uncomment using gcc and gc
   -- completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
